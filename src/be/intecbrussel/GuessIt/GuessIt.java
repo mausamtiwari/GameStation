@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 
 public class GuessIt {
-    private static final int MAX_TRIES = 3;         // User has 6 chances to guess the word.
+    private static final int MAX_TRIES = 3;         // User has 3 chances to guess the word.
     private static String wordToGuess;              // User guessed words.
     private static StringBuilder guessedWord;       // String builder with the list of guesses words.
     private static int triesLeft;                   // Number of tries left.
